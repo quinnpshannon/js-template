@@ -98,6 +98,30 @@ console.log("Hey vs hey: "+("Hey" == "hey")); // false! Caps different and matte
 // Big ones are \' and \" which let you use single (and double) quotes in a string.
 
 console.log("\"Hey\" vs \"hey\": "+("Hey" == "hey"))
+console.log("Didn\'t think this would be an issue, but here we are.")
+
+const frost =
+	"Nature’s first green is gold, \n\
+Her hardest hue to hold. \n\
+Her early leaf’s a flower; \n\
+But only so an hour. \n\
+Then leaf subsides to leaf. \n\
+So Eden sank to grief, \n\
+So dawn goes down to day. \n\
+Nothing gold can stay.";
+// the /n adds a new line, the / afterwords "Cancels out" the enter (that made a new line)
+console.log(frost);
+//You can also do this with backticks, which makes it a lot easier. Includes
+//EVERY CHARACTER in the code, including spaces or whatever. For example:
+
+const c = 5;
+const d = 10;
+
+console.log(`'c' is assigned a value of "${c}," and 'd' is assigned a value of "${d}."
+Therefore, 'c' plus 'd' is equal to ${a + b}.`);
+// 'a' is assigned a value of "5," and 'b' is assigned a value of "10."
+// Therefore, 'a' plus 'b' is equal to 15.
+// ${} will evaluate whats between the code, and return a string.
 
 // This is me messing around with things we haven't learned yet.
 let babyArray = [];
