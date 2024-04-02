@@ -71,3 +71,8 @@ Strings are also Arrays! They start at 0, as they should!
 for(let x=0;_num[x]!=null;x++) {
 console.log(_num[x]);
 }
+let babyArray = [];
+for(let x=0;x<10;x++) {
+    babyArray[x] = x;
+}
+console.log(babyArray);
