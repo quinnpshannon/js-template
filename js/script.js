@@ -66,11 +66,40 @@ while(curNum<newNum){
 console.log("curNum: "+curNum+" newNum "+newNum);
 /*
 + concatenates strings. But we can see that above. Working as intended
-Strings are also Arrays! They start at 0, as they should!
+Strings are also like Arrays! They start at 0, as they should!
 */
 for(let x=0;_num[x]!=null;x++) {
 console.log(_num[x]);
 }
+// We gotta use a method (a Function of an Object) to modify strings.
+// We have not learned methods just yet. We will do that later.
+// actually, he taught us one.
+const lowerTest = 'TeStInG';
+console.log(lowerTest);
+console.log(lowerTest.toLowerCase());
+
+// Comparing Strings! Letters are alphabetical and Caps sensative
+// A<a<B<b<C<c etc
+
+const a = "a";
+const A = "A";
+const b = "b";
+console.log(a < b); // true
+console.log(a < A); // false
+console.log(A < b); // true
+
+// You can use this with Longer Strings too!
+console.log("Hey vs hey: "+("Hey" == "hey")); // false! Caps different and matter!
+
+// Escape Characters let you "Cancel out" characters that might mess with your code
+// They also let you add other punctuation where it might not otherwise be.
+// the escape character is \ and depding on what you add, it gives different functionality.
+// \n is Newline \t is Tab \b is Backspace
+// Big ones are \' and \" which let you use single (and double) quotes in a string.
+
+console.log("\"Hey\" vs \"hey\": "+("Hey" == "hey"))
+
+// This is me messing around with things we haven't learned yet.
 let babyArray = [];
 for(let x=0;x<10;x++) {
     babyArray[x] = x;
